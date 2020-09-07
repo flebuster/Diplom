@@ -1,0 +1,150 @@
+@media (max-width: 768px){
+    .say_hello{
+        .say_hello-text {
+            font-size: 25px;
+            padding-top: 135px;
+        }
+        .say_hello-btn {
+            margin-top: 22%;
+        }
+        .say_hello-logo {
+            right: 6%;
+            bottom: 3%;
+        }
+    }
+    .about_us{
+        height: 700px;
+        &-box{
+            grid-gap: 2em;
+            &-h3{
+                padding-top: 0px;
+                font-size: 35px;
+            }
+            &-p{
+                font-size: 17px;
+                margin-top: -17px;
+            }
+            &-text{
+                    width: 97%;
+                &-span1{
+                    font-size: 15px;
+                }
+                &-p1_1{
+                    font-size: 13px;
+                   
+                }
+                &-p1_2{
+                    font-size: 13px;
+                    
+                }
+                &-span2{
+                    font-size: 15px;
+                }
+                &-p2{
+                    font-size: 13px;
+                    
+                }
+            }
+        }
+    }
+    .what{
+        .center{
+            .what-box{
+                grid-template-columns: 270px 1fr;
+                &-left{
+                    img{
+                        width: 95%;
+                    }
+                }
+                &-right{
+                    &-text{
+                        margin-top: 17px;
+                        padding: 30px 57px 10px; 
+                        &-h6{
+                            font-size: 18px;
+                            &-span{
+                                font-size: 16px;
+                                width: 100%;
+                            }
+                        }
+                        &-p{
+                            margin-top: 15px;
+                            margin-bottom: 22px;
+                            font-size: 14px;
+                        }
+                    img{
+                        padding-left: 32%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .featured{
+        .center{
+            .featured-grid-box{
+                display: grid;
+                grid-template-columns: 370px 370px ;
+                grid-template-rows: 35px 140px 1fr 1fr 1fr;
+                grid-gap: 1em;
+
+                // img{
+                //     width: 95%;
+                // }
+            }
+        }
+    }
+    .small_team{
+        height: 950px;
+        .center{
+            .small_team-grid_box{
+                // &-h3{
+                //     font-size: 37px;
+                // }
+                // &-p{
+                //     font-size: 17px;
+                // }
+                &-item2{
+                        &-text{
+                            margin-left: 28px;
+                            width: 67%;
+                        &-h6{
+                            font-size:12px;
+                            &-span{
+                                font-size: 10px;
+                            }
+                        }
+                        &-p{
+                            margin-top: 11px;
+                            font-size: 10px;
+                            width: 90%;
+                        }
+                        &-icons{
+                            padding-right: 64px;
+                            
+                        }    
+                    }
+                }
+            }
+        }
+    }
+    .our_services{
+        .center{
+           .our_services-grid{
+
+            grid-template-columns: repeat(2, 300px);
+            
+            grid-template-rows:  35px 140px repeat(4, 300px);
+           
+                &-item1{
+                    &-text{
+                        margin-top: -40%;
+                        
+                    }
+                }
+                
+            }
+        
+        }
+    }
+}

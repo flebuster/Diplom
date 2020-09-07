@@ -1,0 +1,10 @@
+@media (max-width: 345px){
+    .about_us{
+        // height: 830px;
+        .center{
+            .about_us-box{
+                grid-template-rows: 265px 1fr;
+            }
+        }
+    }
+}

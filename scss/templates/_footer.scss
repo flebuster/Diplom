@@ -1,0 +1,32 @@
+.footer{
+    height: 310px;
+    background-color: $footer;
+    &-h6{
+        padding-top: 90px;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        font-size: 16px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: $footer_h6;
+    }
+    &-icons{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        img{
+            padding-right: 8px;
+        }
+    }
+    &-p{
+        padding-top: 44px;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        text-decoration: none;
+        color: $footer_p;  
+       
+    }
+
+}

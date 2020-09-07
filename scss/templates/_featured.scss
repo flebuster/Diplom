@@ -1,0 +1,42 @@
+.featured{
+    height: 1170px;
+    background-color: $white;
+    .center{
+        .featured-grid-box{
+            display: grid;
+            margin-top: 130px;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 35px 140px 1fr 1fr;
+            grid-gap: 1em;
+
+                &-h3{
+                    grid-column: 1/4;
+                    grid-row: 1/2;
+                  
+                    font-family: 'Montserrat', sans-serif;
+                    text-align: center;
+                    font-weight: bold;
+                    font-size: 38px;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    color: $h3;
+                }
+                &-p{
+                    grid-column: 1/4;
+                    grid-row: 2/3;
+                   
+                    font-family: 'Merriweather', sans-serif;
+                    text-align: center;
+                    font-weight: 400;
+                    font-size: 18px;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    color: $p;
+                }
+        
+            
+            }    
+    
+    }
+
+}

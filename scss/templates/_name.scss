@@ -1,0 +1,92 @@
+.name{
+    height: 710px;
+    background-image: linear-gradient(rgba(250,252,252, 0.8),rgba(250,252,252, 0.8)),  url('/images/name_11.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &-grid{
+        padding-top: 120px;
+        display: grid;
+        grid-template-columns: 1.2fr 0.8fr;
+        grid-template-rows: 475px;
+        grid-gap: 2em;
+        
+        &-left{
+            position: relative;
+            background-color: $name_back;
+            display: flex;
+            flex-direction: column;
+            padding-left: 5%;
+            padding-right: 5%;
+
+            &-form-btn{
+                text-align: start;
+                position: absolute;
+                bottom: 14%;
+                text-decoration: none;
+                a{
+                    font-family: 'Montserrat', sans-serif;
+                    text-decoration: none;
+                    font-size: 18px;
+                    color: $name_btn;
+                    text-transform: uppercase;
+                    padding: 18px 50px;
+                    background-color: $name_blue;
+                    border-radius: 2px;
+                }
+            }
+            .form-group{
+                font-family: 'Raleway', sans-serif;
+                font-weight: 400;
+                color: $p1;
+                font-size: 15px;
+                margin-top: 30px;
+            
+                .form-control{
+                    color: $p1;
+                    background-color: inherit;
+                    width: 100%;
+                    border: none;
+                    padding: 0;
+                    resize: none;
+                }
+                i{
+                    height: 1px;
+                    width: 100%;
+                    display: block;
+                    background-color:$name_t;
+                }
+            }
+        }
+        &-right{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            background-color: $name_back;
+
+            &-text{
+                display: flex;
+                flex-direction: column;
+                padding-top: 35px;
+                padding-left: 30px;
+                font-family: 'Raleway', sans-serif;
+                font-size: 15px;
+                text-decoration: none;
+                line-height: 1.7;
+                color: $p1;
+                &-a1{
+                    padding-top: 30px;
+                }
+                a{
+                   color: $p1; 
+                }
+            }
+            iframe{
+                width: 100%;
+                padding: 5%;
+                width: 100%;
+            
+            }
+        }
+    }
+}

@@ -1,0 +1,116 @@
+@media (max-width: 576px){
+    .say_hello{
+        .say_hello-text {
+            font-size: 21px;
+        }
+    }
+    .what{
+        .center{    
+            .what-box{
+                grid-template-rows: 60px 40px 450px 340px;
+                &-left{
+                    display: flex;
+                    justify-content: center;
+                    margin-left: 0px;
+
+                }
+                &-right{
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    &-text{
+                        margin-top: -20%;
+                    }
+
+                    // width: 95%;
+                    // &-text-p{
+                    //     width: 97%;
+                    // }
+                    &-btns{
+                        margin-top: 60%;
+                    }
+                }
+            }
+        }
+    }
+    .small_team{
+        height: 3600px;
+        .center{
+            .small_team-grid_box{
+                &-p{
+                    font-size: 14px;
+                }
+                grid-template-columns: 440px;
+                &-item2{
+                    &-text{
+                        &-h6{
+                            font-size:17px;
+                            &-span{
+                                font-size: 15px;
+                            }
+                        }
+                        &-p{
+                            font-size: 14px;
+                        }
+                        &-icons{
+                            margin-top: 35px;
+                        }    
+                    }
+                }
+            }
+        }
+           
+    }
+    .our_services{
+        height: 2350px;
+        .center{
+           .our_services-grid{
+            grid-template-columns: 360px;
+            grid-template-rows:  35px 50px 350px repeat(5, 300px);
+            padding-top: 120px;
+            grid-gap: 1em;
+                &-h3{
+                   font-size: 30px;
+                }
+                &-p{
+                    font-size: 11px;
+                }
+                &-item1{
+                    &-text{
+                        width: 79%;
+                       margin-top: -80%;
+                    
+                        &-span{
+                            font-size: 13px;
+                        }
+                        &-p{
+                            
+                            font-size: 14px;
+                            }
+                    }
+
+                }
+                    &-item2, &-item3, &-item4, &-item5, &-item6{
+                        &-text{
+                            margin-top: -210px;
+                            margin-left: 31px;
+                        }
+                    }
+           }   
+        }      
+    }
+    .about_us{
+        height: 1050px;
+        .center{
+            .about_us-box{
+                &-h3{
+                    font-size: 33px;
+                }
+                &-p{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+  
+}

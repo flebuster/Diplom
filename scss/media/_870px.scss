@@ -1,0 +1,61 @@
+
+@media (max-width: 870px){
+    .small_team{
+        .center{
+            .small_team-grid_box{
+                // &-h3{
+                //     font-size: 37px;
+                // }
+                // &-p{
+                //     font-size: 17px;
+                // }
+                &-item2{
+                        &-text{
+                            margin-left: 34px;
+                            width: 70%;
+                        &-h6{
+                            font-size:14px;
+                            &-span{
+                                font-size: 12px;
+                            }
+                        }
+                        &-p{
+                            margin-top: 12px;
+                            font-size: 10px;
+                            width: 90%;
+                        }
+                        &-icons{
+                            margin-top: 13px;
+                            padding-right: 106px;
+                            
+                        }    
+                    }
+                }
+            }
+        }
+    }
+    .what{
+        .center{
+            .what-box{
+                &-p{
+                    margin-top: 27px;
+                }
+                grid-gap: 1em;
+                &-right{
+                    &-text{
+                       padding: 63px 43px 47px;
+                    }
+                }
+            }
+        }
+    }
+    .name{
+        .center{
+             padding: 3%;
+             .name-grid{
+                 grid-template-rows: 460px;
+                 grid-gap: 1em;
+             }
+         }
+     }
+}

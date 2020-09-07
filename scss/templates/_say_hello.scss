@@ -1,0 +1,49 @@
+.say_hello{
+    height: 700px;
+    background-color: $grey;
+    position: relative;
+
+    &-text{
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        font-weight: bold;
+        font-size: 45px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: $text_grey;
+        padding-top: 160px;
+        line-height: 1.4;
+        text-shadow: $shadow 4px 4px, 3px 4px 4px $shadow;
+        span{
+            background-image: url('/images/say_hello_back.png');
+            padding: 3px 9px;
+        }
+    }
+    .row{
+        position: relative;
+    }
+    &-btn{
+        text-align: center;
+        margin-top: 14%;
+         a{
+            text-decoration: none;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+           
+            font-size: 18px;
+            color: $black;
+            text-transform: uppercase;
+            padding: 13px 48px;
+            background-color: $grey;
+            border: 2px solid $btnborder_grey;
+            border-radius: 2px;
+            }
+    }
+    &-logo{
+        position: absolute;
+        right: 15%;
+        bottom: 10%;
+    }
+
+    
+}

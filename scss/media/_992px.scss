@@ -1,0 +1,72 @@
+@media (max-width: 992px){
+    .small_team{
+        .center{
+            .small_team-grid_box{
+                // &-h3{
+                //     font-size: 37px;
+                // }
+                // &-p{
+                //     font-size: 17px;
+                // }
+                &-item2{
+                        &-text{
+                            width: 65%;
+                        &-h6{
+                            font-size:14px;
+                            &-span{
+                                font-size: 12px;
+                            }
+                        }
+                        &-p{
+                            margin-top: 12px;
+                            font-size: 10px;
+                            width: 90%;
+                        }
+                        &-icons{
+                            margin-top: 13px;
+                            padding-right: 106px;
+                            
+                        }    
+                    }
+                }
+            }
+        }
+    }
+    .our_services{
+        height: 1850px;
+        .center{
+           .our_services-grid{
+            grid-template-columns: repeat(2, 315px);
+            grid-template-rows:  35px 140px repeat(4, 315px);
+                &-item1{
+                    &-text{
+                        &-span{
+                            font-size: 18px;
+                        }
+                        &-p{
+                            margin-top: 20px;
+                            padding-bottom: 32px;
+                            font-size: 14px;
+                            }
+                    }
+                }
+                &-item2, &-item3, &-item4, &-item5, &-item6{
+                    &-text{
+                        &-span{
+                            font-size: 18px;
+                        }
+                        &-p{
+                            margin-top: 20px;
+                            padding-bottom: 32px;
+                            font-size: 14px;
+                        }
+                        a{
+                            font-size: 16px;
+                        }
+                    }
+                }
+                
+           }    
+        }
+    }
+}

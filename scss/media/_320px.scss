@@ -1,0 +1,88 @@
+@media (max-width: 320px){
+    .say_hello{
+        .say_hello-text {
+        font-size: 13px;
+        }
+    }
+    .about_us{
+        .center{
+            .about_us-box{
+                &-p{
+                    font-size: 9px;
+                
+                }
+            }
+        }
+    }
+    .what{
+        height: 890px;
+        .center{    
+            .what-box{
+                grid-template-columns: 255px;
+                grid-template-rows: 50px 10px 290px 340px;
+                &-p{
+                    font-size: 8px;
+                }
+                &-right{
+                    &-text{
+                        img{
+                            padding-left: 23%;
+                        }
+                        padding: 25px 19px 24px;
+                        margin-top: -115px;
+                        &-p{
+                            margin-top: 12px;
+                            margin-bottom: 12px;
+                            font-size: 11px;
+                        }
+                    }
+                    &-btns{
+                        margin-top: 75%;
+                    }
+                
+                }
+
+            }
+        }
+    }
+    .featured{
+        height: 1850px;
+        .center{
+            .featured-grid-box{
+                display: grid;
+                grid-template-columns: 250px;
+                &-h3{
+                    font-size: 20px;
+                }
+                &-p{
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+    .our_services{
+        .center{
+            .our_services-grid{
+                padding-top: 80px;
+                grid-template-columns: 270px;
+                grid-template-rows:  35px 50px 370px repeat(5, 300px);
+                &-p {
+                    font-size: 8px;
+                }
+                &-item1{
+                    &-text{
+                        margin-left: 27px;
+                       margin-top: -129%;
+                    }
+                }
+                &-item2, &-item3, &-item4, &-item5, &-item6{
+                    &-text{
+                        margin-top: -235px;
+                        margin-left: 27px;
+                    }
+                }
+               
+            }    
+        }      
+    }
+}
